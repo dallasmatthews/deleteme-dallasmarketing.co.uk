@@ -16,13 +16,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'database_name_here');
+define('DB_NAME', 'wp_dallasmarketing');
 
 /** MySQL database username */
-define('DB_USER', 'username_here');
+define('DB_USER', 'charliedog');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', 'DMmanch666');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -80,7 +80,17 @@ define('WPLANG', '');
  */
 define('WP_DEBUG', false);
 
-/* That's all, stop editing! Happy blogging. */
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', false);
+define('DOMAIN_CURRENT_SITE', 'local.dev');
+define('PATH_CURRENT_SITE', '/_Projects/dallasmarketing.co.uk/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
+
+/* That's all, stop editing! Happy blogging. */ 
+
+/* Multisite */
+define( 'WP_ALLOW_MULTISITE', true );
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
